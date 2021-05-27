@@ -4,6 +4,7 @@
   "description": "Backend application for pet store",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/AdityaMahaddalkar/pet-store-backend/issues"
   },
-  "homepage": "https://github.com/AdityaMahaddalkar/pet-store-backend#readme"
+  "homepage": "https://github.com/AdityaMahaddalkar/pet-store-backend#readme",
+  "dependencies": {
+    "fastify": "^3.16.2"
+  }
 }
